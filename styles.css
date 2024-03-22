@@ -11,6 +11,10 @@ li {
   list-style: none;
 }
 
+a:visited {
+  color: white;
+}
+
 body {
   background-color: #7c898b;
 }
@@ -53,7 +57,7 @@ header {
 }
 
 nav {
-  min-height: 10vh;
+  min-height: 15vh;
 
   display: flex;
   justify-content: space-between;
@@ -69,7 +73,18 @@ nav {
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 3rem;
+  font-family: "Gambanito", sans-serif;
+}
+
+nav img {
+  height: 100px;
+  width: 100px;
+}
+
+.nav-link {
+  font-size: 1.8em;
+  font-family: "Gabarito", sans-serif;
 }
 
 .hamburger {
@@ -189,6 +204,20 @@ nav {
   border-radius: 10px;
   background-color: #93a3b1;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
   height: 70%;
   width: 19%;
+}
+
+.product-item-image {
+  height: 150px;
+  width: 150px;
+}
+
+#about-us {
+  height: 100vh;
 }
