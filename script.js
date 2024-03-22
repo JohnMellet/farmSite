@@ -13,8 +13,8 @@ document.querySelectorAll(".nav-link").forEach((n) =>
   })
 );
 
-function winLotto() {
-  for (let i = 0; i < 6; i++) {
-    const randomNumber = Math.floor(Math.random() * 52) + 1;
-  }
-}
+// function winLotto() {
+//   for (let i = 0; i < 6; i++) {
+//     const randomNumber = Math.floor(Math.random() * 52) + 1;
+//   }
+// }
