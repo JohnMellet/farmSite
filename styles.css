@@ -11,6 +11,10 @@ li {
   list-style: none;
 }
 
+body {
+  background-color: #7c898b;
+}
+
 :root {
   --backGroundColor-main: #262626;
 }
@@ -151,4 +155,40 @@ nav {
   letter-spacing: 2.3px;
   word-spacing: 2px;
   line-height: 35px;
+}
+
+#products {
+  height: 100vh;
+  margin-top: 10vh;
+  padding-top: 10vh;
+
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#product-title {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Gabarito", sans-serif;
+  font-size: xx-large;
+}
+
+#product-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+.product-item {
+  border: 5px solid beige;
+  border-radius: 10px;
+  background-color: #93a3b1;
+
+  height: 70%;
+  width: 19%;
 }
