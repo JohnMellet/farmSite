@@ -44,7 +44,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("farmSiteResources/Cover2.jpg");
+  background-image: url("farmSiteResources/Cover.jpg");
   opacity: 80%;
   background-size: cover;
 }
@@ -75,6 +75,7 @@ nav {
 .logo {
   font-size: 3rem;
   font-family: "Gambanito", sans-serif;
+  color: white;
 }
 
 nav img {
@@ -85,6 +86,7 @@ nav img {
 .nav-link {
   font-size: 1.8em;
   font-family: "Gabarito", sans-serif;
+  color: white;
 }
 
 .hamburger {
@@ -220,4 +222,70 @@ nav img {
 
 #about-us {
   height: 100vh;
+  padding-top: 20vh;
+}
+
+.about-us-image {
+  border: 5px solid white;
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+  transform: rotate(-90deg);
+}
+
+#about-us-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+#about-us-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+#about-us-title {
+  font-size: 60px;
+  font-family: "Gabarito", sans-serif;
+  color: white;
+}
+
+#content-about-us-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-family: "Gabarito", sans-serif;
+  color: white;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-us-text-container {
+  width: 50%;
+}
+
+.content-section:nth-child(2) .about-us-image {
+  order: 2;
+}
+
+.about-us-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.about-us-text-title {
+  font-size: xx-large;
+}
+
+.about-us-text {
+  font-size: x-large;
+  letter-spacing: 0.5px;
+  word-spacing: 5px;
 }
